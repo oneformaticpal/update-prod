@@ -86,7 +86,6 @@ Pembaruan masif dilakukan hari ini untuk meningkatkan interaktivitas dan manajem
 *   **Logic Fix**: Dashboard Count kini pintar membedakan "Mapel Akademik" vs "Kegiatan Non-Akademik" (seperti Upacara/Istirahat).
 
 ---
----
 
 <div align="center">
   <p>Dibuat dengan ❤️ untuk Kelas X TKJ 1</p>
