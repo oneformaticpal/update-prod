@@ -86,35 +86,6 @@ Pembaruan masif dilakukan hari ini untuk meningkatkan interaktivitas dan manajem
 *   **Logic Fix**: Dashboard Count kini pintar membedakan "Mapel Akademik" vs "Kegiatan Non-Akademik" (seperti Upacara/Istirahat).
 
 ---
-
-## ⚙️ Cara Menjalankan (Local)
-
-1.  **Clone Repository**
-    ```bash
-    git clone https://github.com/username/oneformatic-prod.git
-    cd oneformatic-prod
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    npm install
-    # atau
-    yarn install
-    ```
-
-3.  **Setup Environment Variables**
-    Buat file `.env.local` dan isi dengan kredensial Supabase Anda:
-    ```env
-    NEXT_PUBLIC_SUPABASE_URL=your_project_url
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
-    ```
-
-4.  **Jalankan Server Development**
-    ```bash
-    npm run dev
-    ```
-    Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
-
 ---
 
 <div align="center">
