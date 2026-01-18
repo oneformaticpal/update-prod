@@ -62,7 +62,6 @@ Oneformatic membagi fiturnya menjadi dua pilar utama:
 
 ---
 
-<<<<<<< HEAD
 ## 🚀 Update Log (18 Januari 2026)
 
 Fokus utama update ini adalah optimalisasi manajemen pengguna dan perbaikan sistem inti.
