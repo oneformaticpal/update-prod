@@ -97,10 +97,7 @@ Fokus utama update ini adalah optimalisasi manajemen pengguna dan perbaikan sist
 
 ---
 
-## 🕒 Update Log (16 Januari 2026)
-=======
 ## 🚀 Update Log (16 Januari 2026)
->>>>>>> 2ab0f082e4421f1ec1632af5422a8db51dd84d13
 
 Pembaruan masif dilakukan untuk meningkatkan interaktivitas dan manajemen data.
 
@@ -122,36 +119,6 @@ Pembaruan masif dilakukan untuk meningkatkan interaktivitas dan manajemen data.
 *   **Smart Sorting**: Semua list siswa kini diurutkan berdasarkan **Nomor Absen** (1-36) secara otomatis.
 *   **Realtime Engine**: Perbaikan bug pada submission Quotes/Confession agar data muncul instan tanpa refresh page.
 *   **Logic Fix**: Dashboard Count kini pintar membedakan "Mapel Akademik" vs "Kegiatan Non-Akademik" (seperti Upacara/Istirahat).
-
----
-
-## ⚙️ Cara Menjalankan (Local)
-
-1.  **Clone Repository**
-    ```bash
-    git clone https://github.com/username/oneformatic-prod.git
-    cd oneformatic-prod
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    npm install
-    # atau
-    yarn install
-    ```
-
-3.  **Setup Environment Variables**
-    Buat file `.env.local` dan isi dengan kredensial Supabase Anda:
-    ```env
-    NEXT_PUBLIC_SUPABASE_URL=your_project_url
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
-    ```
-
-4.  **Jalankan Server Development**
-    ```bash
-    npm run dev
-    ```
-    Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
 ---
 
