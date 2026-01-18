@@ -62,9 +62,48 @@ Oneformatic membagi fiturnya menjadi dua pilar utama:
 
 ---
 
-## � Update Log (16 Januari 2026)
+<<<<<<< HEAD
+## 🚀 Update Log (18 Januari 2026)
 
-Pembaruan masif dilakukan hari ini untuk meningkatkan interaktivitas dan manajemen data.
+Fokus utama update ini adalah optimalisasi manajemen pengguna dan perbaikan sistem inti.
+
+### 🌟 New Features
+1.  **Bulk User Generation (Mass Account Creation)**
+    *   **Masalah**: Membuat akun satu per satu untuk 36 siswa sangat memakan waktu.
+    *   **Solusi One-Click**: Admin cukup menekan satu tombol "Generate Akun Siswa" di dashboard.
+    *   **Algoritma Cerdas**: Sistem otomatis mendeteksi siswa yang belum punya akun, lalu membuatkannya kredensial (Email: `{absen}@tkj.pal`, Pass: `{absen}123`).
+    *   **Auto-Link Profile**: Akun yang dibuat langsung terhubung dengan data profil dan biodata siswa.
+    
+2.  **Sistem Absensi v2 (Refined)**
+    *   **Flow Absensi Modern**:
+        *   **Buka Sesi**: Pengurus/Guru membuka sesi absensi harian (07:00 - 15:00).
+        *   **Self Check-in**: Siswa melakukan absen mandiri via dashboard masing-masing.
+        *   **Monitor Real-time**: Admin memantau siapa yang sudah/belum absen secara live.
+        *   **Tutup Sesi**: Tombol "Tutup Sesi" baru untuk mengakhiri absensi hari itu tanpa menghapus data sejarah.
+    *   **Fitur Keamanan & Integritas**:
+        *   **Role-Based Access**: Hanya siswa terdaftar yang bisa absen. Tamu/Guest blocked.
+        *   **Duplicate Prevention**: Mencegah double-input untuk satu hari yang sama.
+        *   **Data Consistency**: Perbaikan relasi database (FK Constraints) agar data tetap aman meski ada perubahan struktur.
+
+3.  **User Interface & Navigation (Revamped)**
+    *   **Logical Grouping**: Menu navigasi tidak lagi berantakan, tapi dikelompokkan:
+        *   **Utama**: Dashboard & Profil.
+        *   **Akademik**: Mapel, Materi, Tugas, Forum, Prestasi.
+        *   **Kelas**: Piket, Event, Kas, Absensi.
+        *   **Tools**: Cheat Sheet & Network Utilities.
+    *   **Clear Terminology**: Perubahan nama fitur agar lebih mudah dimengerti (Contoh: "Materi" -> "Bank Materi").
+
+4.  **Security & Profile**
+    *   **Change Password**: Siswa kini bisa mengubah password default mereka via halaman Profil.
+
+---
+
+## 🕒 Update Log (16 Januari 2026)
+=======
+## 🚀 Update Log (16 Januari 2026)
+>>>>>>> 2ab0f082e4421f1ec1632af5422a8db51dd84d13
+
+Pembaruan masif dilakukan untuk meningkatkan interaktivitas dan manajemen data.
 
 ### 🌟 Major Updates
 1.  **Ekosistem Dashboard Admin Baru**
@@ -84,6 +123,36 @@ Pembaruan masif dilakukan hari ini untuk meningkatkan interaktivitas dan manajem
 *   **Smart Sorting**: Semua list siswa kini diurutkan berdasarkan **Nomor Absen** (1-36) secara otomatis.
 *   **Realtime Engine**: Perbaikan bug pada submission Quotes/Confession agar data muncul instan tanpa refresh page.
 *   **Logic Fix**: Dashboard Count kini pintar membedakan "Mapel Akademik" vs "Kegiatan Non-Akademik" (seperti Upacara/Istirahat).
+
+---
+
+## ⚙️ Cara Menjalankan (Local)
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/username/oneformatic-prod.git
+    cd oneformatic-prod
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    # atau
+    yarn install
+    ```
+
+3.  **Setup Environment Variables**
+    Buat file `.env.local` dan isi dengan kredensial Supabase Anda:
+    ```env
+    NEXT_PUBLIC_SUPABASE_URL=your_project_url
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+    ```
+
+4.  **Jalankan Server Development**
+    ```bash
+    npm run dev
+    ```
+    Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
 ---
 
