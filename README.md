@@ -8,7 +8,7 @@
 
   **Platform Manajemen Kelas Digital Terintegrasi untuk Siswa SMK**
   
-  [Lihat Demo](https://oneformatic.vercel.app/) · [Laporkan Bug](#) · [Request Fitur](#)
+  [Lihat Demo](https://oneformatic.vercel.app/) · [Laporkan Bug](https://github.com/oneformaticpal/update-prod/issues) · [Request Fitur](#)
 </div>
 
 ---
